@@ -32,12 +32,12 @@ dotenv_1.default.config({ path: '.env.txt' });
 dotenv_1.default.config();
 dotenv_1.default.config({ path: 'config.txt' });
 const args = (0, arg_1.default)({
-    '--givers': Number, // 100 1000 10000 100000
-    '--api': String, // lite, tonhub, tonapi
-    '--bin': String, // cuda, opencl or path to miner
-    '--gpu': Number, // gpu id, default 0
-    '--timeout': Number, // Timeout for mining in seconds
-    '--allow-shards': Boolean, // if true - allows mining to other shards
+    '--givers': Number,
+    '--api': String,
+    '--bin': String,
+    '--gpu': Number,
+    '--timeout': Number,
+    '--allow-shards': Boolean,
     '-c': String, // blockchain config
 });
 let givers = givers_meridian_1.givers1000;
